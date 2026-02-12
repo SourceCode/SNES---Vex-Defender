@@ -1,8 +1,0 @@
-[objects]
-src/main.obj
-data.obj
-hdr.obj
-J:/code/snes/snes-build-tools/tools/pvsneslib/pvsneslib/lib/LoROM_SlowROM/crt0_snes.obj
-J:/code/snes/snes-build-tools/tools/pvsneslib/pvsneslib/lib/LoROM_SlowROM/libc.obj
-J:/code/snes/snes-build-tools/tools/pvsneslib/pvsneslib/lib/LoROM_SlowROM/libm.obj
-J:/code/snes/snes-build-tools/tools/pvsneslib/pvsneslib/lib/LoROM_SlowROM/libtcc.obj
