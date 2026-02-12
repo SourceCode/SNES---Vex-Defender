@@ -1,0 +1,159 @@
+{
+  "source_root": "G:/2024-unity/0-GameAssets/shooter",
+  "output_root": "assets",
+  "assets": {
+    "sprites": [
+      {
+        "id": "player_ship",
+        "source": "ship001.png",
+        "output": "sprites/player/player_ship.png",
+        "size": 32,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 3,
+        "description": "Player ship (OBJ_LARGE 32x32)"
+      },
+      {
+        "id": "enemy_scout",
+        "source": "ship010.png",
+        "output": "sprites/enemies/enemy_scout.png",
+        "size": 32,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 3,
+        "description": "Enemy scout ship (OBJ_LARGE 32x32)"
+      },
+      {
+        "id": "enemy_fighter",
+        "source": "ship015.png",
+        "output": "sprites/enemies/enemy_fighter.png",
+        "size": 32,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 5,
+        "description": "Enemy fighter ship"
+      },
+      {
+        "id": "enemy_cruiser",
+        "source": "ship020.png",
+        "output": "sprites/enemies/enemy_cruiser.png",
+        "size": 32,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 5,
+        "description": "Enemy cruiser ship"
+      }
+    ],
+    "bullets": [
+      {
+        "id": "bullet_player",
+        "source": "bullet-01.png",
+        "output": "sprites/bullets/bullet_player.png",
+        "size": 16,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 3,
+        "description": "Player bullet (OBJ_SMALL 16x16)"
+      },
+      {
+        "id": "bullet_enemy",
+        "source": "bullet-08.png",
+        "output": "sprites/bullets/bullet_enemy.png",
+        "size": 16,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 3,
+        "description": "Enemy bullet (OBJ_SMALL 16x16)"
+      },
+      {
+        "id": "bullet_spread",
+        "source": "bullet-03.png",
+        "output": "sprites/bullets/bullet_spread.png",
+        "size": 16,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 6,
+        "description": "Spread shot bullet"
+      },
+      {
+        "id": "bullet_missile",
+        "source": "bullet-05.png",
+        "output": "sprites/bullets/bullet_missile.png",
+        "size": 16,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 6,
+        "description": "Missile projectile"
+      }
+    ],
+    "backgrounds": [
+      {
+        "id": "zone1_bg",
+        "source": "background-01.png",
+        "output": "backgrounds/zone1_bg.png",
+        "width": 256,
+        "height": 256,
+        "colors": 16,
+        "type": "background",
+        "phase": 3,
+        "description": "Zone 1 starfield/debris background (BG1)"
+      },
+      {
+        "id": "zone2_bg",
+        "source": "background-02.png",
+        "output": "backgrounds/zone2_bg.png",
+        "width": 256,
+        "height": 256,
+        "colors": 16,
+        "type": "background",
+        "phase": 5,
+        "description": "Zone 2 asteroid field background"
+      },
+      {
+        "id": "zone3_bg",
+        "source": "background-03.png",
+        "output": "backgrounds/zone3_bg.png",
+        "width": 256,
+        "height": 256,
+        "colors": 16,
+        "type": "background",
+        "phase": 5,
+        "description": "Zone 3 flagship interior background"
+      }
+    ],
+    "items": [
+      {
+        "id": "item_health",
+        "source": "item-01.png",
+        "output": "sprites/items/item_health.png",
+        "size": 16,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 6,
+        "description": "Health pickup"
+      },
+      {
+        "id": "item_energy",
+        "source": "item-02.png",
+        "output": "sprites/items/item_energy.png",
+        "size": 16,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 6,
+        "description": "Energy pickup"
+      }
+    ],
+    "npcs": [
+      {
+        "id": "npc_ally",
+        "source": "npc-01.png",
+        "output": "sprites/npcs/npc_ally.png",
+        "size": 32,
+        "colors": 15,
+        "type": "sprite",
+        "phase": 7,
+        "description": "Ally NPC portrait/sprite"
+      }
+    ]
+  }
+}

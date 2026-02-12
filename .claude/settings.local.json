@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd //c \"env.bat && make\")",
+      "Bash(export PVSNESLIB_HOME='J:/code/snes/snes-build-tools/tools/pvsneslib')",
+      "Bash(make:*)"
+    ]
+  }
+}

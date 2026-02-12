@@ -1,0 +1,28 @@
+# Build artifacts
+*.obj
+*.sfc
+*.sym
+*.srm
+*.ps
+*.asm.test_bak
+nul
+
+# Editor and OS
+.vs/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# Emulator screenshots (kept selectively)
+# Uncomment the next line to ignore all screenshots
+# screenshot*.png
+
+# Test binaries
+tests/run_tests.exe
+tests/*.exe
+
+# Python cache
+__pycache__/
+*.pyc

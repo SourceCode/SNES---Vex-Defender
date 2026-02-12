@@ -1,0 +1,24 @@
+/*==============================================================================
+ * ULTRA-MINIMAL BOOT TEST - uses only snes.h like hello world
+ *============================================================================*/
+
+#include <snes.h>
+
+int main(void)
+{
+    consoleInit();
+    setMode(BG_MODE1, 0);
+
+    consoleInitText(0, BG_4COLORS, 0, 0);
+    bgSetEnable(2);
+
+    consoleDrawText(10, 9, "BOOT TEST");
+
+    setScreenOn();
+
+    while (1) {
+        WaitForVBlank();
+    }
+
+    return 0;
+}
