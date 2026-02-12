@@ -1,5 +1,24 @@
 # VEX DEFENDER - Release History
 
+## v0.2.4 - 2026-02-11
+
+### Repository Cleanup
+
+Cleaned development artifacts from the repository to reduce clutter and repo size.
+
+#### Removed
+
+- **32 development screenshots** from repo root (bsnes captures, test screenshots, flight/title screenshots)
+- **12 PowerShell debug scripts**: 7 capture/screenshot automation scripts (`capture*.ps1`) and 5 input/debug scripts (`findwindow.ps1`, `send_input.ps1`, `send_keys*.ps1`, `send_scan.ps1`)
+- **3 backup files**: `src/main.c.bak`, `src/main.c.test_bak`, `linkfile_minimal`
+- **4 untracked build artifacts** from disk: `data.obj`, `hdr.obj`, `data.asm.test_bak`, `hdr.asm.test_bak`, `nul`
+
+#### Added
+
+- `.gitignore` to prevent build artifacts (`.obj`, `.sfc`, `.sym`, `.srm`) from being tracked
+
+---
+
 ## v0.1.1 - 2026-02-11
 
 ### Initial Release

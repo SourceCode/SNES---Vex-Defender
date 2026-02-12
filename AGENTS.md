@@ -1,6 +1,6 @@
 # VEX DEFENDER - Agent Guide
 
-**Version: 0.1.1**
+**Version: 0.2.4**
 
 This document provides comprehensive context for AI agents (Claude Code, Cursor, Copilot, etc.) working on the VEX DEFENDER codebase. It describes the project architecture, build system, conventions, constraints, and development workflow so that an agent can make informed, safe modifications.
 

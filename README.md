@@ -1,6 +1,6 @@
 # VEX DEFENDER
 
-**Version: 0.1.1**
+**Version: 0.2.4**
 
 A vertical-scrolling shoot-em-up with turn-based RPG battles for the Super Nintendo, built from scratch with [PVSnesLib](https://github.com/alekmaul/pvsneslib).
 
